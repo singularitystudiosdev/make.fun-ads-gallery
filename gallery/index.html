@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>make.fun ads: all 42</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="bar">
+    <div class="bar-row">
+      <a class="mark" href="./" aria-label="make.fun ads, show all">make<span class="dot">.</span>fun <span class="mark-sub">ads</span></a>
+      <label class="search">
+        <span class="sr">Search ads</span>
+        <input id="q" type="search" placeholder="Search brand, headline or post text" autocomplete="off">
+        <kbd aria-hidden="true">/</kbd>
+      </label>
+      <p class="count" id="count" aria-live="polite"></p>
+    </div>
+    <div class="bar-row filters" role="group" aria-label="Filters">
+      <div class="seg" role="radiogroup" aria-label="Set" id="f-set"></div>
+      <div class="seg" role="radiogroup" aria-label="Format" id="f-kind"></div>
+      <label class="select"><span>Category</span><select id="f-cat"></select></label>
+      <label class="select"><span>Ratio</span><select id="f-ratio"></select></label>
+    </div>
+  </header>
+
+  <main id="main">
+    <div id="results"></div>
+    <div class="empty" id="empty" hidden>
+      <p>No ads match these filters.</p>
+      <button type="button" class="btn" id="clear">Clear filters</button>
+    </div>
+  </main>
+
+  <dialog id="viewer" aria-labelledby="v-title">
+    <div class="v-wrap">
+      <div class="v-stage">
+        <div class="v-media" id="v-media"></div>
+        <div class="v-variants" id="v-variants" role="group" aria-label="Creative files"></div>
+      </div>
+      <aside class="v-info">
+        <div class="v-nav">
+          <button type="button" class="btn ghost" id="v-prev">Previous</button>
+          <button type="button" class="btn ghost" id="v-next">Next</button>
+          <button type="button" class="btn ghost" id="v-close" autofocus>Close</button>
+        </div>
+        <p class="v-brand" id="v-brand"></p>
+        <h2 id="v-title"></h2>
+        <dl class="v-copy" id="v-copy"></dl>
+        <div class="v-links" id="v-links"></div>
+        <p class="v-file" id="v-file"></p>
+      </aside>
+    </div>
+  </dialog>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
