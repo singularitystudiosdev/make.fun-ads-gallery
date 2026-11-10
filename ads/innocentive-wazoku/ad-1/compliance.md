@@ -1,6 +1,6 @@
 # Ad 1 X compliance review: "Pick a brief. Let your agent build it." (from InnoCentive A1)
 
-Creative: `creative.mp4` 25.95 MB, `poster.png` 0.05 MB. Copy: `copy.md`. Landing URL: https://make.fun/.
+Creative: `creative.mp4` 25.95 MB, `poster.png` 0.07 MB. Copy: `copy.md`. Landing URL: https://make.fun/.
 
 X's documents were read live in the session that built this ad, on 2026-11-09 between 09:18 and 09:51 UTC (02:18-02:51
 America/Denver). The Terms of Service ("Effective: October 9, 2026"), the Ads Policies index, Quality, Deceptive & Fraudulent

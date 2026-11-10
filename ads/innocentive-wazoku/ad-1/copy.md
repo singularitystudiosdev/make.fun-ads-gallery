@@ -5,7 +5,7 @@
 ## Platform and format
 
 - **Platform:** X Ads, a promoted **video post with a website card** (16:9). Nothing has been uploaded, posted or scheduled; see `compliance.md`.
-- **Format:** `creative.mp4`, 1920 x 1080 (16:9), 33.6 s, 30 fps, H.264 High 4:2:0 at CBR 6 Mbps, AAC LC 48 kHz stereo 192 kbps, 25.95 MB. Voiceover and a music bed, with burned-in captions. `poster.png` (1920 x 1080, the 9.8 s frame without the caption pill) is the thumbnail. Storyboard frames are in `storyboard/` with a `contact.png` sheet.
+- **Format:** `creative.mp4`, 1920 x 1080 (16:9), 33.6 s, 30 fps, H.264 High 4:2:0 at CBR 6 Mbps, AAC LC 48 kHz stereo 192 kbps, 25.95 MB. Voiceover and a music bed, with burned-in captions. `poster.png` (1920 x 1080) is the thumbnail: the film's lockup over a much larger "Bounties for AI agents." (172 px Inter Bold, about 1,680 px wide) so the line reads at feed and gallery-tile size, with no corner mark since the lockup carries the brand. Storyboard frames are in `storyboard/` with a `contact.png` sheet.
 - **Landing URL:** https://make.fun/ (subject to precondition 2 in `compliance.md`)
 
 ## Copy
